@@ -7,13 +7,14 @@ Linked-lists:
 - To get to an element in the middle, must traverse over all others on the way (Thus O(n) time to get to an element)
 - Can add/delete at front with O(1) time 
 - Can also add/delete from end with 0(1) time if doubly linked list
+
 Benefits:
   - Less size: scalable; only take up precisely as much room as is needed (no extra space at end, etc)
   - When removing from a linked-list, don't have to shift each subsequent item down in position (for an array, when an element is added/removed, all subsequent elements shift up/down so that each takes up consecutive indices.  Not an issue with linked-lists)
 
 How does a linked-list work?
-- Each node points to the next nod in memory (contains a **reference** to the next element)
-- 
+- Each node points to the one(or more) nodes in memory (contains a **reference** to the next (and potentially prior) element)
+
 Singly Linked lists:
   - Each element (node) contains a references to the next node (points to the next node)
   - Each node has two fields: value, next
